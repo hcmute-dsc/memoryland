@@ -68,7 +68,6 @@ function excerptOf(md: string, n = 200) {
 }
 
 export async function getStories(): Promise<Story[]> {
-  'use cache';
   const fromArchive = await Promise.all(
     storiesData.archive.map(async ({ post, slug, kicker }) => {
       const raw = JSON.parse(await fs.readFile(path.join(ROOT, 'content/stories/archive', `${post}.json`), 'utf8'));
