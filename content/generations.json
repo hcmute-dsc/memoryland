@@ -10,7 +10,10 @@
       "intro": "Những người đặt nền móng: tuyển những thành viên đầu tiên, đưa CLB ra mắt sinh viên khoa và duy trì hoạt động suốt một năm học phần lớn diễn ra trực tuyến.",
       "board": [
         { "role": "Chủ nhiệm · Người sáng lập", "name": "Võ Trần Minh Quân" },
-        { "role": "Phó Chủ nhiệm · Đồng sáng lập", "name": "Nguyễn Huỳnh Minh Tiến" }
+        { "role": "Phó Chủ nhiệm, Trưởng ban Học thuật · Đồng sáng lập", "name": "Nguyễn Huỳnh Minh Tiến" },
+        { "role": "Trưởng ban Truyền thông", "name": "Nguyễn Trung Tín" },
+        { "role": "Trưởng ban Sự kiện", "name": "Tạ Thị Mai Hương" },
+        { "role": "Thành viên Core team", "name": "Huỳnh Thị Thúy Vy" }
       ],
       "recruitment": [
         { "label": "Gen 1 · 07/2021", "post": "2021-07-12-gdsc-hcmute-recruitment" },
@@ -18,7 +21,7 @@
       ],
       "highlights": ["Google Cloud Study Jam", "beCod3r 2021", "Workshop E-commerce", "KMS Virtual Office Tour"],
       "post": "2022-09-28-tri-an-ban-chu-nhiem-2021-2022",
-      "verified": false
+      "verified": true
     },
     {
       "slug": "2022-2023",
