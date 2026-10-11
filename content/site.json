@@ -1,0 +1,22 @@
+{
+  "$comment": "Cấu hình chung. Điền link Google Form vào forms.* khi đã tạo form; để trống thì nút đóng góp hiển thị 'sắp mở'.",
+  "name": "HCMUTE DSC · 5 năm",
+  "founded": "2021-07-20",
+  "anniversary": "2026-07-20",
+  "tagline": "Năm năm. Một cộng đồng. Vô vàn ký ức.",
+  "motto": "Chúng ta đến như những người xa lạ, cùng lớn lên thành một cộng đồng, và mãi là một phần của câu chuyện.",
+  "hashtags": ["#HCMUTEDSC5Years", "#WeWereThere", "#DSCMemories"],
+  "links": {
+    "website": "https://hcmute-dsc.io.vn",
+    "archive": "https://hcmute-dsc.io.vn/news",
+    "gallery": "https://hcmute-dsc.io.vn/gallery",
+    "facebook": "https://www.facebook.com/hcmute.dsc",
+    "github": "https://github.com/hcmute-dsc",
+    "email": "clb.dsc@student.hcmute.edu.vn"
+  },
+  "forms": {
+    "memory": "",
+    "story": "",
+    "letter": ""
+  }
+}

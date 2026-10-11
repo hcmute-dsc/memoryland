@@ -1,0 +1,11 @@
+{
+  "$comment": "archive: bài đăng công khai trên fanpage, nội dung được chép từ kho lưu trữ khi chạy npm run import. Câu chuyện của thành viên đặt ở content/stories/members/*.md (xem README).",
+  "archive": [
+    { "post": "2021-07-15-loi-dau-tien-clb-sinh-vien-lap-trinh-google-hcmute-xin-gui-l", "slug": "loi-chao-dau-tien", "kicker": "Những ngày đầu" },
+    { "post": "2021-12-31-tam-biet-2021-xin-chao-2022", "slug": "tam-biet-2021", "kicker": "Năm 01" },
+    { "post": "2022-11-08-happy-birthday-gdsc-hcmute", "slug": "sinh-nhat-1-tuoi", "kicker": "Sinh nhật 1 tuổi" },
+    { "post": "2023-11-18-happy-birthday-gdsc-hcmute", "slug": "sinh-nhat-2-tuoi", "kicker": "Sinh nhật 2 tuổi" },
+    { "post": "2024-10-14-thong-bao-quan-trong-tu-clb-gdsc-hcmute", "slug": "mot-cai-ten-moi", "kicker": "Đổi tên" },
+    { "post": "2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap", "slug": "ky-niem-3-nam", "kicker": "3 năm" }
+  ]
+}

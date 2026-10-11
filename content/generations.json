@@ -1,0 +1,102 @@
+{
+  "$comment": "Mỗi nhiệm kỳ một mục. Tên và vai trò lấy từ các bài giới thiệu Ban Chủ nhiệm trên fanpage (post). verified=false nghĩa là còn thiếu thông tin, cần cựu thành viên của nhiệm kỳ đó xác nhận và bổ sung.",
+  "terms": [
+    {
+      "slug": "2021-2022",
+      "term": "2021 – 2022",
+      "gen": "Gen 1 – 2",
+      "name": "Thế hệ khởi nguồn",
+      "club": "GDSC HCMUTE",
+      "intro": "Những người đặt nền móng: tuyển những thành viên đầu tiên, đưa CLB ra mắt sinh viên khoa và duy trì hoạt động suốt một năm học phần lớn diễn ra trực tuyến.",
+      "board": [
+        { "role": "Chủ nhiệm · Người sáng lập", "name": "Võ Trần Minh Quân" },
+        { "role": "Phó Chủ nhiệm · Đồng sáng lập", "name": "Nguyễn Huỳnh Minh Tiến" }
+      ],
+      "recruitment": [
+        { "label": "Gen 1 · 07/2021", "post": "2021-07-12-gdsc-hcmute-recruitment" },
+        { "label": "Gen 2 · 03/2022", "post": "2022-02-27-tuyen-thanh-vien-giai-doan-2-nam-hoc-2021-2022-gdsc-hcmute" }
+      ],
+      "highlights": ["Google Cloud Study Jam", "beCod3r 2021", "Workshop E-commerce", "KMS Virtual Office Tour"],
+      "post": "2022-09-28-tri-an-ban-chu-nhiem-2021-2022",
+      "verified": false
+    },
+    {
+      "slug": "2022-2023",
+      "term": "2022 – 2023",
+      "gen": "Gen 3",
+      "name": "Bước ra sân chơi lớn",
+      "club": "GDSC HCMUTE",
+      "intro": "Nhiệm kỳ của cuộc thi HCMUTE CTF đầu tiên, Open Day, workshop Git & GitHub và GDSC Vietnam Hackathon 2023.",
+      "board": [
+        { "role": "Chủ nhiệm", "name": "Lê Văn Cường" },
+        { "role": "Trưởng ban Học thuật", "name": "Bùi Quốc Tĩnh" },
+        { "role": "Trưởng ban Truyền thông", "name": "Lê Duy Khiêm" },
+        { "role": "Trưởng ban Sự kiện", "name": "Nguyễn Ngô Hoài Thương" }
+      ],
+      "recruitment": [{ "label": "Gen 3 · 10/2022", "post": "2022-11-02-danh-sach-thanh-vien-clb-gen-3-gdsc-hcmute" }],
+      "highlights": ["HCMUTE CTF 2022", "Sinh nhật 1 tuổi", "Open Day 2023", "GDSC Vietnam Hackathon 2023"],
+      "post": "2022-10-03-ban-chu-nhiem-moi-2022-2023",
+      "verified": true
+    },
+    {
+      "slug": "2023-2024",
+      "term": "2023 – 2024",
+      "gen": "Gen 4",
+      "name": "Lớn lên cùng cộng đồng",
+      "club": "GDSC HCMUTE",
+      "intro": "Sinh hoạt tuần đều đặn, có mặt tại GDSC Summit Việt Nam 2023 và triển khai Git & GitHub Study Jam theo đội.",
+      "board": [
+        { "role": "Chủ nhiệm", "name": "Lê Duy Khiêm" },
+        { "role": "Trưởng ban Học thuật", "name": "Nguyễn Chí Thanh" },
+        { "role": "Trưởng ban Truyền thông", "name": "Lê Văn Phát" },
+        { "role": "Trưởng ban Sự kiện", "name": "Võ Thị Thu Hằng" },
+        { "role": "Thành viên Ban Chủ nhiệm", "name": "Lê Anh Khoa" },
+        { "role": "Thành viên Ban Chủ nhiệm", "name": "Đỗ Ngọc Chí Công" }
+      ],
+      "recruitment": [{ "label": "Gen 4 · 10/2023", "post": "2023-10-29-danh-sach-thanh-vien-cau-lac-bo-gen-4-gdsc-hcmute" }],
+      "highlights": ["GDSC Summit Việt Nam 2023", "Sinh nhật 2 tuổi", "Git & GitHub Study Jam"],
+      "post": "2023-11-09-ban-chu-nhiem-moi-2023-2024",
+      "verified": true
+    },
+    {
+      "slug": "2024-2025",
+      "term": "2024 – 2025",
+      "gen": "Gen 5",
+      "name": "Một cái tên mới",
+      "club": "GDSC HCMUTE → HCMUTE DSC",
+      "intro": "Nhiệm kỳ đưa CLB sang chương mới với tên gọi HCMUTE DSC, mừng 3 năm thành lập và mở rộng các chương trình học tập như Learning Sprint SQL Challenge.",
+      "board": [
+        { "role": "Chủ nhiệm", "name": "Trần Công Toản" },
+        { "role": "Trưởng ban Học thuật", "name": "Mai Hồng Tín" },
+        { "role": "Trưởng ban Truyền thông", "name": "Nguyễn Quang Hoàng Phát" },
+        { "role": "Trưởng ban Sự kiện và Đối ngoại", "name": "Nguyễn Ngọc Anh Thư" }
+      ],
+      "recruitment": [{ "label": "Gen 5 · 10/2024", "post": "2024-10-15-cong-bo-danh-sach-thanh-vien-cau-lac-bo-hcmute-dsc" }],
+      "highlights": ["Đổi tên thành HCMUTE DSC", "Kỷ niệm 3 năm", "CV Contest 2025", "SQL Challenge"],
+      "post": "2024-09-13-gioi-thieu-ban-chu-nhiem-nam-2024-2025-gdsc-hcmute",
+      "verified": true
+    },
+    {
+      "slug": "2025-2026",
+      "term": "2025 – 2026",
+      "gen": "Gen 6",
+      "name": "Năm thứ năm",
+      "club": "HCMUTE DSC",
+      "intro": "Nhiệm kỳ khép lại 5 năm đầu tiên với Git & GitHub Study Jam 2025, chuỗi InterviewPrep101, SQL Challenge 2026 và ClubDay 2026.",
+      "board": [
+        { "role": "Chủ nhiệm", "name": "Mai Hồng Tín" },
+        { "role": "Phó Chủ nhiệm", "name": "Nguyễn Hoàng Thùy Linh" }
+      ],
+      "recruitment": [{ "label": "Gen 6 · 10/2025", "post": "2025-10-10-cong-bo-danh-sach-thanh-vien-chinh-thuc-cua-hcmute-dsc-gen-6" }],
+      "highlights": ["Workshop quyền lợi lao động ngành CNTT", "Git & GitHub Study Jam 2025", "InterviewPrep101", "ClubDay 2026"],
+      "post": "2025-09-21-gioi-thieu-ban-chu-nhiem-hcmute-dsc-gen-6-2025-2026",
+      "verified": true
+    }
+  ],
+  "next": {
+    "gen": "Gen 7",
+    "term": "2026 – 2027",
+    "text": "Đợt tuyển thành viên Gen 7 đang diễn ra. Thế hệ tiếp theo sẽ viết tiếp câu chuyện.",
+    "post": "2026-10-01-tuyen-thanh-vien-hcmute-dsc-gen-7"
+  }
+}

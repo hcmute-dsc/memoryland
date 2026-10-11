@@ -1,0 +1,168 @@
+{
+  "$comment": "Hành trình theo năm hoạt động, tính từ ngày thành lập 20/07/2021 (Founding date trên fanpage). `post` là id bài trong kho lưu trữ (content/archive.json); `featured` là các bài có ảnh được chọn để trưng bày.",
+  "years": [
+    {
+      "year": 0,
+      "slug": "khoi-nguon",
+      "label": "Khởi nguồn",
+      "range": "07/2021",
+      "title": "Những người đầu tiên",
+      "summary": "Đầu tháng 7/2021, nhóm sáng lập bắt đầu chuyên mục Q&A trên fanpage và mở đơn tuyển thành viên đầu tiên, nhận hơn 120 đơn chỉ sau 3 ngày. Ngày 20/07/2021, CLB chính thức thành lập.",
+      "milestones": [
+        { "date": "05/07/2021", "title": "Bài Q&A đầu tiên trên fanpage, khi còn mang tên Developer Student Clubs – HCM UTE", "post": "2021-07-05-qa-gdsc-question-xin-chao-cac-ban-google-hien-nay-dang-dong" },
+        { "date": "12/07/2021", "title": "Mở đơn tuyển thành viên đầu tiên", "post": "2021-07-12-gdsc-hcmute-recruitment" },
+        { "date": "15/07/2021", "title": "Hơn 120 đơn đăng ký sau 3 ngày, lời cảm ơn đầu tiên của CLB", "post": "2021-07-15-loi-dau-tien-clb-sinh-vien-lap-trinh-google-hcmute-xin-gui-l" },
+        { "date": "20/07/2021", "title": "CLB Sinh viên Lập trình Google – HCMUTE (GDSC HCMUTE) chính thức thành lập", "highlight": true }
+      ],
+      "featured": []
+    },
+    {
+      "year": 1,
+      "slug": "nam-01",
+      "label": "Năm 01",
+      "range": "07/2021 – 07/2022",
+      "title": "Những viên gạch đầu tiên",
+      "summary": "Năm đầu tiên diễn ra phần lớn trực tuyến. CLB ra mắt với Google Cloud Study Jam, talkshow Cloud Computing, cuộc thi beCod3r, workshop E-commerce và tour văn phòng ảo KMS, đồng thời mở đợt tuyển thành viên thứ hai.",
+      "milestones": [
+        { "date": "24/07/2021", "title": "Phỏng vấn trực tuyến những thành viên đầu tiên", "post": "2021-07-22-gdsc-hcmute-xin-chao-tat-ca-cac-ban" },
+        { "date": "22/08/2021", "title": "Google Cloud Study Jam", "post": "2021-08-22-google-cloud-study-jam-gdsc-hcmute" },
+        { "date": "26–29/08/2021", "title": "Talkshow Cloud Computing", "post": "2021-08-29-talkshow-cloud-computing-loi-cam-on-gdsc-hcmute" },
+        { "date": "05/10/2021", "title": "Chương trình ra mắt CLB", "post": "2021-10-05-chuong-trinh-ra-mat-cau-lac-bo-sinh-vien-lap-trinh-google-hc" },
+        { "date": "10/10/2021", "title": "Video giới thiệu CLB đầu tiên", "url": "https://www.youtube.com/watch?v=hdXo_brnj9M" },
+        { "date": "11–12/2021", "title": "Cuộc thi học thuật online beCod3r 2021", "post": "2021-12-15-tong-ket-becod3r-2021" },
+        { "date": "01/2022", "title": "Workshop E-commerce: Gain from growth", "post": "2022-01-16-workshop-e-commerce-gain-from-growth-loi-cam-on" },
+        { "date": "02–03/2022", "title": "Tuyển thành viên giai đoạn 2", "post": "2022-02-27-tuyen-thanh-vien-giai-doan-2-nam-hoc-2021-2022-gdsc-hcmute" },
+        { "date": "03/2022", "title": "KMS Virtual Office Tour", "post": "2022-03-10-kms-tour" },
+        { "date": "04–05/2022", "title": "Đồng hành cuộc thi Mastering IT 2022", "post": "2022-05-13-mastering-it-2022-danh-sach-doi-thi-mastering-it-2022-vay-la" }
+      ],
+      "featured": [
+        "2021-08-22-google-cloud-study-jam-gdsc-hcmute",
+        "2021-10-04-gdsc-hcmute-tan-sinh-vien-2021",
+        "2021-12-12-becod3r-2021-vong-chung-ket-cuoc-thi-hoc-thuat-online-becod3",
+        "2021-12-15-tong-ket-becod3r-2021",
+        "2021-12-31-tam-biet-2021-xin-chao-2022",
+        "2022-01-16-workshop-e-commerce-gain-from-growth-loi-cam-on",
+        "2022-03-10-kms-tour",
+        "2022-05-13-mastering-it-2022-danh-sach-doi-thi-mastering-it-2022-vay-la"
+      ]
+    },
+    {
+      "year": 2,
+      "slug": "nam-02",
+      "label": "Năm 02",
+      "range": "07/2022 – 07/2023",
+      "title": "Bước ra những sân chơi lớn",
+      "summary": "CLB tổ chức cuộc thi HCMUTE CTF đầu tiên, đón Gen 3, mừng sinh nhật 1 tuổi và gặp nhau trực tiếp nhiều hơn với Open Day, workshop Git & GitHub và GDSC Vietnam Hackathon 2023.",
+      "milestones": [
+        { "date": "08–09/2022", "title": "Cuộc thi \"Sinh viên với An toàn Thông tin\" (HCMUTE CTF) lần thứ nhất", "post": "2022-08-28-recap-kick-off-cuoc-thi-hoc-thuat-sinh-vien-voi-an-toan-thon" },
+        { "date": "10/2022", "title": "Ban Chủ nhiệm nhiệm kỳ 2022 – 2023", "post": "2022-10-03-ban-chu-nhiem-moi-2022-2023" },
+        { "date": "10–11/2022", "title": "Chào đón thành viên Gen 3", "post": "2022-11-02-danh-sach-thanh-vien-clb-gen-3-gdsc-hcmute" },
+        { "date": "08/11/2022", "title": "Sinh nhật 1 tuổi", "post": "2022-11-08-happy-birthday-gdsc-hcmute", "highlight": true },
+        { "date": "12/2022", "title": "Lớp ôn tập Nhập môn Lập trình", "post": "2022-12-07-tong-ket-lop-on-tap-nhap-mon-lap-trinh-hki-nam-hoc-2022-2023" },
+        { "date": "01/2023", "title": "Open Day 2023", "post": "2023-01-09-open-day-2023-recap" },
+        { "date": "02/2023", "title": "Workshop Git & GitHub", "post": "2023-02-20-workshop-git-github-recap" },
+        { "date": "03–04/2023", "title": "GDSC Vietnam Hackathon 2023", "post": "2023-04-04-gdsc-vietnam-hackathon-2023-tong-ket-va-nhin-lai" },
+        { "date": "05/2023", "title": "Đồng hành cuộc thi Mastering IT 2023", "post": "2023-05-20-recap-vong-so-loai-cuoc-thi-hoc-thuat-truyen-thong-mastering" }
+      ],
+      "featured": [
+        "2022-08-28-recap-kick-off-cuoc-thi-hoc-thuat-sinh-vien-voi-an-toan-thon",
+        "2022-09-06-ket-qua-chung-cuoc-cuoc-thi-hoc-thuat-sinh-vien-voi-an-toan",
+        "2022-09-28-tri-an-ban-chu-nhiem-2021-2022",
+        "2022-11-02-danh-sach-thanh-vien-clb-gen-3-gdsc-hcmute",
+        "2022-11-08-happy-birthday-gdsc-hcmute",
+        "2022-12-07-tong-ket-lop-on-tap-nhap-mon-lap-trinh-hki-nam-hoc-2022-2023",
+        "2023-01-09-open-day-2023-recap",
+        "2023-02-20-workshop-git-github-recap"
+      ]
+    },
+    {
+      "year": 3,
+      "slug": "nam-03",
+      "label": "Năm 03",
+      "range": "07/2023 – 07/2024",
+      "title": "Lớn lên cùng cộng đồng",
+      "summary": "Sinh hoạt tuần đều đặn, có mặt tại GDSC Summit Việt Nam 2023, đón Gen 4, mừng sinh nhật 2 tuổi và triển khai chương trình Git & GitHub Study Jam theo đội cho sinh viên khoa.",
+      "milestones": [
+        { "date": "09/2023", "title": "GDSC Summit Việt Nam 2023", "post": "2023-09-26-gdsc-summit-viet-nam-2023-recap" },
+        { "date": "09/2023", "title": "Info Session 2023", "post": "2023-09-18-gdsc-hcmute-info-session-2023" },
+        { "date": "10/2023", "title": "Chào đón thành viên Gen 4", "post": "2023-10-29-danh-sach-thanh-vien-cau-lac-bo-gen-4-gdsc-hcmute" },
+        { "date": "11/2023", "title": "Ban Chủ nhiệm nhiệm kỳ 2023 – 2024", "post": "2023-11-09-ban-chu-nhiem-moi-2023-2024" },
+        { "date": "18/11/2023", "title": "Sinh nhật 2 tuổi", "post": "2023-11-18-happy-birthday-gdsc-hcmute", "highlight": true },
+        { "date": "02–04/2024", "title": "Git & GitHub Study Jam", "post": "2024-04-06-tong-ket-git-github-study-jam" }
+      ],
+      "featured": [
+        "2023-09-10-tri-an-ban-chu-nhiem-2022-2023",
+        "2023-09-18-gdsc-hcmute-info-session-2023",
+        "2023-09-26-gdsc-summit-viet-nam-2023-recap",
+        "2023-10-29-danh-sach-thanh-vien-cau-lac-bo-gen-4-gdsc-hcmute",
+        "2023-11-09-ban-chu-nhiem-moi-2023-2024",
+        "2023-11-18-happy-birthday-gdsc-hcmute",
+        "2024-02-26-git-github-study-jam-recap",
+        "2024-04-06-tong-ket-git-github-study-jam"
+      ]
+    },
+    {
+      "year": 4,
+      "slug": "nam-04",
+      "label": "Năm 04",
+      "range": "07/2024 – 07/2025",
+      "title": "Một cái tên mới",
+      "summary": "CLB rời chương trình Google Developer Student Clubs và trở thành CLB Sinh viên Lập trình HCMUTE (HCMUTE DSC), mừng 3 năm thành lập cùng Gen 5, rồi tiếp tục với workshop Linux, CV Contest, IT Journey và Learning Sprint SQL Challenge.",
+      "milestones": [
+        { "date": "09/2024", "title": "Ban Chủ nhiệm nhiệm kỳ 2024 – 2025", "post": "2024-09-13-gioi-thieu-ban-chu-nhiem-nam-2024-2025-gdsc-hcmute" },
+        { "date": "09–10/2024", "title": "Chào đón thành viên Gen 5", "post": "2024-10-15-cong-bo-danh-sach-thanh-vien-cau-lac-bo-hcmute-dsc" },
+        { "date": "14/10/2024", "title": "Trở thành HCMUTE Developer Student Club", "post": "2024-10-14-thong-bao-quan-trong-tu-clb-gdsc-hcmute", "highlight": true },
+        { "date": "10/2024", "title": "Chào đón tân binh & kỷ niệm 3 năm thành lập", "post": "2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap" },
+        { "date": "11/2024", "title": "Workshop Introduction to Linux", "post": "2024-11-19-tong-ket-workshop-introduction-to-linux" },
+        { "date": "01/2025", "title": "Cuộc thi thiết kế CV Contest 2025", "post": "2025-01-09-cuoc-thi-thiet-ke-cv-cv-contest-2025-khai-pha-tiem-nang-chin" },
+        { "date": "03/2025", "title": "IT Journey – What's next 2025", "post": "2025-03-19-recap-it-journey-what-s-next-2025" },
+        { "date": "03–05/2025", "title": "Learning Sprint | SQL Challenge", "post": "2025-05-03-recap-learning-sprint-sql-challenge" },
+        { "date": "05/2025", "title": "Đồng hành cuộc thi Mastering IT lần thứ 18", "post": "2025-05-04-cuoc-thi-hoc-thuat-mastering-it-hcmute-mo-rong-lan-thu-18-na" }
+      ],
+      "featured": [
+        "2024-09-10-tri-an-ban-chu-nhiem-gdsc-hcmute-gen-4",
+        "2024-09-13-gioi-thieu-ban-chu-nhiem-nam-2024-2025-gdsc-hcmute",
+        "2024-10-15-cong-bo-danh-sach-thanh-vien-cau-lac-bo-hcmute-dsc",
+        "2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap",
+        "2024-11-12-mini-recap-buoi-1-workshop-introduction-to-linux",
+        "2025-01-09-cuoc-thi-thiet-ke-cv-cv-contest-2025-khai-pha-tiem-nang-chin",
+        "2025-03-19-recap-it-journey-what-s-next-2025",
+        "2025-05-03-recap-learning-sprint-sql-challenge"
+      ]
+    },
+    {
+      "year": 5,
+      "slug": "nam-05",
+      "label": "Năm 05",
+      "range": "07/2025 – 07/2026",
+      "title": "Năm thứ năm",
+      "summary": "Ban Chủ nhiệm Gen 6 tiếp quản, workshop Bảo vệ quyền lợi lao động trong ngành CNTT, Git & GitHub Study Jam 2025 với sản phẩm của từng đội, chuỗi InterviewPrep101 12 phần, SQL Challenge 2026 và ClubDay 2026.",
+      "milestones": [
+        { "date": "09/2025", "title": "Ban Chủ nhiệm Gen 6 (2025 – 2026)", "post": "2025-09-21-gioi-thieu-ban-chu-nhiem-hcmute-dsc-gen-6-2025-2026" },
+        { "date": "09/2025", "title": "Workshop Bảo vệ quyền lợi lao động trong ngành CNTT", "post": "2025-09-28-recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng" },
+        { "date": "10/2025", "title": "Chào đón thành viên Gen 6", "post": "2025-10-10-cong-bo-danh-sach-thanh-vien-chinh-thuc-cua-hcmute-dsc-gen-6" },
+        { "date": "11–12/2025", "title": "Git & GitHub Study Jam 2025", "post": "2025-12-15-tong-ket-git-github-study-jam-2025-hcmute-dsc" },
+        { "date": "03–06/2026", "title": "Chuỗi InterviewPrep101 (12 phần)", "post": "2026-03-29-interviewprep101-part-1-general" },
+        { "date": "05/2026", "title": "SQL Challenge 2026", "post": "2026-05-19-sql-challenge-2026" },
+        { "date": "2026", "title": "ClubDay 2026 và website mới hcmute-dsc.io.vn", "url": "https://hcmute-dsc.io.vn/showcase" },
+        { "date": "20/07/2026", "title": "Tròn 5 năm thành lập", "highlight": true }
+      ],
+      "featured": [
+        "2025-09-15-tri-an-ban-chu-nhiem-dsc-hcmute-gen-5",
+        "2025-09-21-gioi-thieu-ban-chu-nhiem-hcmute-dsc-gen-6-2025-2026",
+        "2025-09-28-recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng",
+        "2025-10-10-cong-bo-danh-sach-thanh-vien-chinh-thuc-cua-hcmute-dsc-gen-6",
+        "2025-12-18-flex-thanh-pham-git-github-study-jam-2025-hcmute-dsc",
+        "2026-03-29-interviewprep101-part-1-general",
+        "2026-04-05-interviewprep101-part-2-dsa",
+        "2026-05-24-recap-buoi-1-sql-challenge-hcmute-dsc"
+      ]
+    }
+  ],
+  "next": {
+    "label": "Chương tiếp theo",
+    "title": "Gen 7 và 5 năm phía trước",
+    "summary": "Tháng 10/2026, HCMUTE DSC mở đợt tuyển thành viên Gen 7. Câu chuyện vẫn đang được viết tiếp.",
+    "post": "2026-10-01-tuyen-thanh-vien-hcmute-dsc-gen-7"
+  }
+}

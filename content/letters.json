@@ -1,0 +1,9 @@
+{
+  "$comment": "Lời nhắn đã được duyệt (người gửi đồng ý công khai). Thêm theo mẫu: { \"name\": \"...\", \"gen\": \"Gen 3\", \"role\": \"Thành viên ban Học thuật\", \"date\": \"2026-10-20\", \"message\": \"...\" }",
+  "prompts": [
+    "Kỷ niệm đáng nhớ nhất của bạn tại DSC là gì?",
+    "DSC đã thay đổi bạn như thế nào?",
+    "Nếu được gửi một lời đến thế hệ DSC hiện tại, bạn sẽ nói gì?"
+  ],
+  "letters": []
+}
