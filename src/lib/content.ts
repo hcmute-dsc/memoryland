@@ -30,6 +30,9 @@ export const nextChapter = journeyData.next;
 export const yearBySlug = (slug: string) => years.find((y) => y.slug === slug);
 export const featuredOf = (year: number): FeaturedPost[] =>
   (archive.featured as Record<string, FeaturedPost[]>)[String(year)] ?? [];
+/** The picture of a year on the journey page. */
+export const yearCover = (year: number): FeaturedPost | null =>
+  (archive.yearCovers as Record<string, FeaturedPost | null>)[String(year)] ?? null;
 export const statsOf = (year: number) =>
   (archive.stats.byYear as Record<string, { posts: number; photos: number }>)[String(year)] ?? { posts: 0, photos: 0 };
 

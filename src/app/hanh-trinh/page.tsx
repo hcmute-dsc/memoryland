@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Milestones } from '@/components/milestones';
 import { ArrowLink, Container, PageHeader } from '@/components/ui';
-import { archivePost, featuredOf, nextChapter, statsOf, years } from '@/lib/content';
+import { archivePost, nextChapter, statsOf, yearCover, years } from '@/lib/content';
 
 export const metadata: Metadata = {
   title: 'Hành trình',
@@ -20,10 +19,10 @@ export default function JourneyPage() {
       <Container>
         <div className="space-y-6">
           {years.map((y) => {
-            const cover = featuredOf(y.year)[0];
+            const cover = yearCover(y.year);
             const s = statsOf(y.year);
             return (
-              <article key={y.slug} className="reveal grid gap-6 rounded-3xl border border-line bg-card p-6 sm:p-8 lg:grid-cols-[220px_1fr_280px]">
+              <article key={y.slug} className="reveal grid gap-6 rounded-3xl border border-line bg-card p-6 sm:p-8 lg:grid-cols-[200px_1fr_320px]">
                 <div>
                   <p className="text-5xl font-extrabold tracking-tight text-orange">{y.year === 0 ? '00' : `0${y.year}`}</p>
                   <p className="mt-2 font-semibold">{y.label}</p>
@@ -43,9 +42,12 @@ export default function JourneyPage() {
                   )}
                 </div>
                 {cover && (
-                  <Link href={`/hanh-trinh/${y.slug}`} className="relative hidden aspect-[3/4] overflow-hidden rounded-2xl lg:block">
-                    <Image src={cover.cover} alt={cover.title} fill sizes="280px" className="object-cover transition duration-500 hover:scale-105" />
-                  </Link>
+                  <figure className="self-start lg:order-none">
+                    <a href={cover.url} className="group relative block aspect-[4/3] overflow-hidden rounded-2xl bg-paper-2">
+                      <Image src={cover.cover} alt={cover.title} fill sizes="(min-width: 1024px) 320px, 100vw" className="object-cover transition duration-500 group-hover:scale-105" />
+                    </a>
+                    <figcaption className="mt-2 line-clamp-2 text-xs text-muted">{cover.title}</figcaption>
+                  </figure>
                 )}
               </article>
             );

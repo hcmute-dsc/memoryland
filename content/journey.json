@@ -1,9 +1,10 @@
 {
-  "$comment": "Hành trình theo năm hoạt động, tính từ ngày thành lập 20/07/2021 (Founding date trên fanpage). `post` là id bài trong kho lưu trữ (content/archive.json); `featured` là các bài có ảnh được chọn để trưng bày.",
+  "$comment": "Hành trình theo năm hoạt động, tính từ ngày thành lập 20/07/2021 (Founding date trên fanpage). `post` là id bài trong kho lưu trữ (content/archive.json); `featured` là các bài có ảnh được chọn để trưng bày; `cover` là ảnh đại diện của năm.",
   "years": [
     {
       "year": 0,
       "slug": "khoi-nguon",
+      "cover": "2021-07-12-gdsc-hcmute-recruitment",
       "label": "Khởi nguồn",
       "range": "07/2021",
       "title": "Những người đầu tiên",
@@ -19,6 +20,7 @@
     {
       "year": 1,
       "slug": "nam-01",
+      "cover": "2022-01-30-meeting-up-with-gdsc-hcmute-2022-solution-challenge-recap",
       "label": "Năm 01",
       "range": "07/2021 – 07/2022",
       "title": "Những viên gạch đầu tiên",
@@ -49,6 +51,7 @@
     {
       "year": 2,
       "slug": "nam-02",
+      "cover": "2023-01-09-open-day-2023-recap",
       "label": "Năm 02",
       "range": "07/2022 – 07/2023",
       "title": "Bước ra những sân chơi lớn",
@@ -78,6 +81,7 @@
     {
       "year": 3,
       "slug": "nam-03",
+      "cover": "2023-09-26-gdsc-summit-viet-nam-2023-recap",
       "label": "Năm 03",
       "range": "07/2023 – 07/2024",
       "title": "Lớn lên cùng cộng đồng",
@@ -104,6 +108,7 @@
     {
       "year": 4,
       "slug": "nam-04",
+      "cover": "2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap",
       "label": "Năm 04",
       "range": "07/2024 – 07/2025",
       "title": "Một cái tên mới",
@@ -133,6 +138,7 @@
     {
       "year": 5,
       "slug": "nam-05",
+      "cover": "2025-09-28-recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng",
       "label": "Năm 05",
       "range": "07/2025 – 07/2026",
       "title": "Năm thứ năm",

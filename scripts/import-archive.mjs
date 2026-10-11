@@ -69,7 +69,7 @@ const generations = JSON.parse(fs.readFileSync(path.join(ROOT, 'content', 'gener
 
 // Every id the hand-written content points at must exist in the archive.
 const refs = [
-  ...journey.years.flatMap((y) => [...y.milestones.map((m) => m.post), ...y.featured]),
+  ...journey.years.flatMap((y) => [y.cover, ...y.milestones.map((m) => m.post), ...y.featured]),
   journey.next.post,
   ...stories.archive.map((s) => s.post),
   ...generations.terms.flatMap((g) => [g.post, ...g.recruitment.map((r) => r.post)]),
@@ -97,18 +97,26 @@ function autoPick(year) {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
+/** A post with its cover resized into public/archive. */
+async function card(p) {
+  const name = `${p.id}.webp`;
+  const dest = path.join(COVERS, name);
+  if (!fs.existsSync(dest)) await sharp(p.cover).resize({ width: 960, withoutEnlargement: true }).webp({ quality: 78 }).toFile(dest);
+  const { width, height } = await sharp(dest).metadata();
+  return { id: p.id, title: p.title, date: p.date, category: p.category, description: p.description, photos: p.photos, url: p.url, cover: `/archive/${name}`, width, height };
+}
+
 const featured = {};
+const yearCovers = {};
 for (const year of years) {
-  const picked = journey.years.find((y) => y.year === year)?.featured ?? [];
+  const entry = journey.years.find((y) => y.year === year);
+  const picked = entry?.featured ?? [];
   const pool = picked.length ? picked.map((id) => byId.get(id)).filter((p) => p.cover) : autoPick(year);
   featured[year] = [];
-  for (const p of pool) {
-    const name = `${p.id}.webp`;
-    const dest = path.join(COVERS, name);
-    if (!fs.existsSync(dest)) await sharp(p.cover).resize({ width: 960, withoutEnlargement: true }).webp({ quality: 78 }).toFile(dest);
-    const { width, height } = await sharp(dest).metadata();
-    featured[year].push({ id: p.id, title: p.title, date: p.date, category: p.category, description: p.description, photos: p.photos, url: p.url, cover: `/archive/${name}`, width, height });
-  }
+  for (const p of pool) featured[year].push(await card(p));
+  // The year's picture on the journey page: its hand-picked cover, or its first featured post.
+  const cover = entry?.cover && byId.get(entry.cover);
+  yearCovers[year] = cover?.cover ? await card(cover) : (featured[year][0] ?? null);
 }
 
 const sum = (arr, f) => arr.reduce((n, x) => n + f(x), 0);
@@ -148,6 +156,7 @@ fs.writeFileSync(OUT, JSON.stringify({
   source: `${SITE}/news`,
   generatedAt: new Date().toISOString().slice(0, 10),
   stats,
+  yearCovers,
   featured,
   // the cover path is local to this machine: leave it out
   posts: posts.map(({ cover: _local, ...p }) => p),

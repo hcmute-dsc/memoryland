@@ -32,6 +32,80 @@
       }
     }
   },
+  "yearCovers": {
+    "0": {
+      "id": "2021-07-12-gdsc-hcmute-recruitment",
+      "title": "GDSC HCMUTE - recruitment",
+      "date": "2021-07-12",
+      "category": "tuyen-thanh-vien",
+      "description": "Loa loa loa Không để các bạn đợi lâu nữa, link đăng ký tuyển Thành viên cho Google Developer Student Clubs - HCMUTE đã chính thức được lên sóng rồi đây Với mong muốn tìm kiếm và…",
+      "photos": 1,
+      "url": "https://hcmute-dsc.io.vn/news/2021/07/12/gdsc-hcmute-recruitment",
+      "cover": "/archive/2021-07-12-gdsc-hcmute-recruitment.webp",
+      "width": 960,
+      "height": 540
+    },
+    "1": {
+      "id": "2022-01-30-meeting-up-with-gdsc-hcmute-2022-solution-challenge-recap",
+      "title": "Meeting up with GDSC - HCMUTE: 2022 solution challenge | Recap",
+      "date": "2022-01-30",
+      "category": "su-kien-cuoc-thi",
+      "description": "Chào mọi người Chào mọi ngườiiii Vậy là buổi “Meetup with GDSC - HCMUTE: 2022 Solution Challenge” đã chính thức được khép lại với sự tham gia nhiệt tình của các bạn Sinh viên Mong…",
+      "photos": 1,
+      "url": "https://hcmute-dsc.io.vn/news/2022/01/30/meeting-up-with-gdsc-hcmute-2022-solution-challenge-recap",
+      "cover": "/archive/2022-01-30-meeting-up-with-gdsc-hcmute-2022-solution-challenge-recap.webp",
+      "width": 960,
+      "height": 540
+    },
+    "2": {
+      "id": "2023-01-09-open-day-2023-recap",
+      "title": "Open Day 2023 | Recap",
+      "date": "2023-01-09",
+      "category": "su-kien-cuoc-thi",
+      "description": "Xin chào mọi người Ngày 8/1/2023 vừa qua, CLB GDSC - HCMUTE phối hợp cùng Đoàn - Hội Khoa Công nghệ Thông Tin đã tổ chức sự kiện Open Day - Ngày Hội Mở dành cho các bạn học sinh…",
+      "photos": 11,
+      "url": "https://hcmute-dsc.io.vn/news/2023/01/09/open-day-2023-recap",
+      "cover": "/archive/2023-01-09-open-day-2023-recap.webp",
+      "width": 960,
+      "height": 640
+    },
+    "3": {
+      "id": "2023-09-26-gdsc-summit-viet-nam-2023-recap",
+      "title": "GDSC Summit Việt Nam 2023 | RECAP",
+      "date": "2023-09-26",
+      "category": "su-kien-cuoc-thi",
+      "description": "Tham gia GDSC Summit Việt Nam 2023 là một niềm vinh dự và là cơ hội đối với Chủ nhiệm GDSC-HCMUTE khi được gặp gỡ và kết nối với 23 Chapter Leads trên khắp ba miền Bắc, Trung, Nam…",
+      "photos": 8,
+      "url": "https://hcmute-dsc.io.vn/news/2023/09/26/gdsc-summit-viet-nam-2023-recap",
+      "cover": "/archive/2023-09-26-gdsc-summit-viet-nam-2023-recap.webp",
+      "width": 960,
+      "height": 641
+    },
+    "4": {
+      "id": "2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap",
+      "title": "Memory recap | Chào đón thành viên mới & kỷ niệm 3 năm thành lập",
+      "date": "2024-10-29",
+      "category": "su-kien-cuoc-thi",
+      "description": "Đại Tiệc Chào Đón Tân Binh & Kỷ Niệm 3 Năm HCMUTE DSC đã diễn ra thành công tốt đẹp, ghi dấu một chặng đường đầy cảm xúc và kết nối với những thành viên mới. Sự kiện không chỉ là…",
+      "photos": 29,
+      "url": "https://hcmute-dsc.io.vn/news/2024/10/29/memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap",
+      "cover": "/archive/2024-10-29-memory-recap-chao-don-thanh-vien-moi-ky-niem-3-nam-thanh-lap.webp",
+      "width": 960,
+      "height": 640
+    },
+    "5": {
+      "id": "2025-09-28-recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng",
+      "title": "Recap workshop - bảo vệ quyền lợi lao động trong ngành công nghệ thông tin",
+      "date": "2025-09-28",
+      "category": "workshop-sinh-hoat",
+      "description": "Workshop “Bảo vệ quyền lợi lao động trong ngành Công nghệ Thông tin” đã chính thức khép lại cùng với những kiến thức quý giá dành cho sinh viên khoa CNTT HCMUTE. DSC xin gửi lời…",
+      "photos": 21,
+      "url": "https://hcmute-dsc.io.vn/news/2025/09/28/recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng",
+      "cover": "/archive/2025-09-28-recap-workshop-bao-ve-quyen-loi-lao-dong-trong-nganh-cong-ng.webp",
+      "width": 960,
+      "height": 640
+    }
+  },
   "featured": {
     "0": [
       {
