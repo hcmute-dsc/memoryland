@@ -7,7 +7,7 @@ export function SiteFooter() {
     <footer className="mt-24 border-t border-line bg-paper-2/60">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <p className="text-lg font-bold">HCMUTE DSC · 5 năm</p>
+          <p className="text-lg font-bold">Memoryland <span className="font-normal text-muted">· HCMUTE DSC 5 năm</span></p>
           <p className="mt-2 max-w-sm font-serif text-ink-soft italic">“{site.motto}”</p>
           <p className="mt-4 text-sm text-muted">{site.hashtags.join(' ')}</p>
         </div>
