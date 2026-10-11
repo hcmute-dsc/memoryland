@@ -19,7 +19,7 @@ const quote = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://memory.hcmute-dsc.io.vn"),
+  metadataBase: new URL("https://memoryland.hcmute-dsc.io.vn"),
   title: { default: site.name, template: `%s · ${site.name}` },
   description: `${site.tagline} Hành trình 5 năm của CLB Sinh viên Lập trình HCMUTE (HCMUTE DSC), 2021 – 2026.`,
 };

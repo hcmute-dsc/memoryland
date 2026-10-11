@@ -1,4 +1,6 @@
-# HCMUTE DSC · 5 năm
+# Memoryland · HCMUTE DSC 5 năm
+
+https://memoryland.hcmute-dsc.io.vn
 
 Website lưu giữ hành trình 5 năm của CLB Sinh viên Lập trình HCMUTE (HCMUTE DSC), từ ngày thành lập 20/07/2021. Đây là sản phẩm
 **DSC Digital Memory** của dự án *5 Years Legacy*: hành trình theo năm, các thế hệ Ban Chủ nhiệm, câu chuyện, lời nhắn và kênh
